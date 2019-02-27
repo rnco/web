@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun:400,500,700');
+
+html, body{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.title {
+    text-shadow: 0.5px 0.5px 1px lightgray;
+}
+
+#font_blue{
+    color: LightSeaGreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+#font_blue_just{
+    color: LightSeaGreen;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#font_black{
+    color: black;
+    text-align: justify;
+    font-size: small;
+}
+
+.extra_pad {
+    padding-top: 10px; 
+}
+
+.padding {
+    padding-left: 10px;
+}
+
+.padding_comp {
+    padding-left: 40px;
+}
+
+.h_comparison{
+    width: 92%;
+    position: center;
+}
+
+#footer {
+    position: fixed;
+    height: 20px;
+    bottom: 0px; 
+    text-align: center;
+    font-size: small;
+    left: 0px;
+    width: 100%;
+    color: black;
+    background-color:gainsboro;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .title {
+        font-size: 200%;
+        text-shadow: 1px 1px 5px gray;
+    }
+  }
+@media (max-width: 768px) {
+    .title {
+        font-size: 150%;
+    }   
+    .padding_comp {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .title {
+        font-size: 125%;
+    }   
+}
